@@ -13,5 +13,5 @@ with the help of raspberry pi kits(Which has been already developed by client si
 
 • Provide an interface to visualize and analyze the data.
 
-[Link](MySql database installation with workbench)
+[MySql database installation with workbench](MySql database installation with workbench)
 
