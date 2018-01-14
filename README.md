@@ -12,3 +12,4 @@ with the help of raspberry pi kits(Which has been already developed by client si
 • Providing a functionality to pull the data from the selected MRI when required.
 
 • Provide an interface to visualize and analyze the data.
+
