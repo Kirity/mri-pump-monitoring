@@ -13,5 +13,9 @@ with the help of raspberry pi kits(Which has been already developed by client si
 
 • Provide an interface to visualize and analyze the data.
 
-[MySql database installation with workbench](Database-installation-and-set-up)
+[MySql database installation with workbench](https://gitlab.com/rapuru/mripumpmonitoring/wikis/Database-installation-and-set-up)
+[Project-architecture](https://gitlab.com/rapuru/mripumpmonitoring/wikis/Project-architecture)
+[Database details](https://gitlab.com/rapuru/mripumpmonitoring/wikis/database-details)
+[Python file details](https://gitlab.com/rapuru/mripumpmonitoring/wikis/python-file-details)
+[Raspberry pi set up](https://gitlab.com/rapuru/mripumpmonitoring/wikis/raspberry-pi-set-up)
 
