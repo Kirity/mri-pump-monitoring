@@ -1,12 +1,12 @@
 # Summary
 
-* [Introduction]
-* [Goals of the project]
-* [MySql database installation with workbench](https://gitlab.com/rapuru/mripumpmonitoring/wikis/Database-installation-and-set-up)
-* [Project architecture](https://gitlab.com/rapuru/mripumpmonitoring/wikis/Project-architecture)
-* [Database details](https://gitlab.com/rapuru/mripumpmonitoring/wikis/database-details)
-* [Python file details](https://gitlab.com/rapuru/mripumpmonitoring/wikis/python-file-details)
-* [Raspberry pi set up](https://gitlab.com/rapuru/mripumpmonitoring/wikis/raspberry-pi-set-up)
+* [Introduction](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#introduction)
+* [Goals of the project](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#goals-of-the-project)
+* [MySql database installation with workbench](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#mysql-database-installation-with-workbench)
+* [Project architecture](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#project-architecture)
+* [Database details](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#database-details)
+* [Python file details](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#python-file-details)
+* [Raspberry pi set up](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#raspberry-pi-set-up)
 
 # Introduction
 
