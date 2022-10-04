@@ -232,7 +232,7 @@ Go to the location "[/home/pi/Documents/MRI]/code/" and run the file RunningTask
 
 If it is run form terminal, then it looks like below
 
-![image](/uploads/c339f4e6f1a10883b9f0ace956366a2c/image.png)
+![image](https://user-images.githubusercontent.com/15073157/193936729-bbbd1145-3d76-4958-ab53-2a29e4a508f7.png)
 
 * Don't close or kill the process of this. This process need to be running
 In Raspberry PI or in any other system which is in the same network, open a browser and put the url http://[ip of PI]:5000/ and hit enter.
