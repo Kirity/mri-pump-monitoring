@@ -3,10 +3,27 @@
 * [Introduction](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#introduction)
 * [Goals of the project](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#goals-of-the-project)
 * [MySql database installation with workbench](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#mysql-database-installation-with-workbench)
+  * [Creation of new schema](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#creation-of-new-schema)
+  * [Import of table structures and with master data](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#import-of-table-structures-and-with-master-data)
+  * 
 * [Project architecture](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#project-architecture)
 * [Database details](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#database-details)
 * [Python file details](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#python-file-details)
 * [Raspberry pi set up](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#raspberry-pi-set-up)
+  * [Python Installation](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#python-installation)
+  * [Creating the folder structure](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#creating-the-folder-structure)
+  * [Update the config.cfg file](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#update-the-configcfg-file)
+  * [Setting path for sensor data](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#setting-path-for-sensor-data)
+  * [Running of application](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#running-of-application)
+  * [Setting up Flask : Micro-web frame work](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#setting-up-flask--micro-web-frame-work)
+  * [Running and testing of flask job](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#running-and-testing-of-flask-job)
+  * [Creating the folder structure](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#creating-the-folder-structure-1)
+  * [Update the config.cfg file](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#update-the-configcfg-file-1)
+  * [Setting path for sensor data] (https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#setting-path-for-sensor-data-1)
+  * [Running of application](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#running-of-application-1)
+  * [Setting up Flask : Micro-web frame work](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#setting-up-flask--micro-web-frame-work-1)
+  * [Running and testing of flask job](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#running-and-testing-of-flask-job-1)
+  
 
 # Introduction
 
