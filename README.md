@@ -14,7 +14,7 @@ Pressure, temperature, noise, and vibration of the pump are the assessment param
 • Provide an interface to visualize and analyze the data.
 
 * [MySql database installation with workbench](https://gitlab.com/rapuru/mripumpmonitoring/wikis/Database-installation-and-set-up)
-* [Project-architecture](https://gitlab.com/rapuru/mripumpmonitoring/wikis/Project-architecture)
+* [Project architecture](https://gitlab.com/rapuru/mripumpmonitoring/wikis/Project-architecture)
 * [Database details](https://gitlab.com/rapuru/mripumpmonitoring/wikis/database-details)
 * [Python file details](https://gitlab.com/rapuru/mripumpmonitoring/wikis/python-file-details)
 * [Raspberry pi set up](https://gitlab.com/rapuru/mripumpmonitoring/wikis/raspberry-pi-set-up)
@@ -93,4 +93,38 @@ Here MySql is the database used in this project. Workbench is also installed wit
 A set of tables, should be displayed
 
 ![image](https://user-images.githubusercontent.com/15073157/193933369-3503f5f5-81f2-443a-807f-283136311623.png)
+
+# Project architecture
+
+![image](https://user-images.githubusercontent.com/15073157/193933717-17770da3-536d-4b45-9e0b-64a48106551a.png)
+
+# Database details
+
+Below figure represents the full database model.
+
+![image](https://user-images.githubusercontent.com/15073157/193933881-71d42161-a727-47ab-9087-87d016e2f766.png)
+
+# Python file details
+
+* File name : RunningTasks.py
+  * Path : [/home/pi/Documents/]MRI/code/RunningTasks.py
+  * If there exists database connection on then, this will trigger all the execution points for the processing of measured types Temperature, Standard temperature Error, Pressure, Standard Pressure Error, Images, .wav files in the same order.
+  * A file is created every time, this file has run. This file contains error message if any.
+  * The new few file is the feed for table JobRunHistory
+  * If there exists internet connection, a status mail will be sent and alert mails if any
+
+* File name : TemperatureReading.py
+ * Path : [/home/pi/Documents/]MRI/code/programms/TemperatureReading.py
+ * Reads each temperature log file at a time from the provided path and save details of each file at a time into database.
+ * In case of any error, the respective file will be move to error folder with actual file and anther new file with the same name and "_error" as post fix and error message in it.
+ * In case of success, the file will be moved to archive folder.
+ * After processing all files, a row will be inserted into table FileProcessHistory
+
+* Files : PressureReading.py, SavingWavFiles.py, SaveTemperatureErrorLogs.py, SavePressureErrorLogs.py, ImagesReading.py
+
+  * Path : [/home/pi/Documents/]MRI/code/programms/
+  * All these files follow the same strategy of TemperatureReading.py but saving into their respective related tables.
+
+
+
 
