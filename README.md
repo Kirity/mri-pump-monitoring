@@ -1,4 +1,4 @@
-# Project Overview
+# Project overview
 This project is being developed to monitor the parameters of the Magnetic Resonance Imaging (MRI) Pump, which is used as the cooling system to the MRI machine.
 
 The cooling system is one of the critical systems of MRI, so it becomes necessary to monitor the functioning(i.e. parameters) of Pump.
