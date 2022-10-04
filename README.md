@@ -19,7 +19,7 @@
   * [Running and testing of flask job](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#running-and-testing-of-flask-job)
   * [Creating the folder structure](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#creating-the-folder-structure-1)
   * [Update the config.cfg file](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#update-the-configcfg-file-1)
-  * [Setting path for sensor data] (https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#setting-path-for-sensor-data-1)
+  * [Setting path for sensor data](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#setting-path-for-sensor-data-1)
   * [Running of application](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#running-of-application-1)
   * [Setting up Flask : Micro-web frame work](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#setting-up-flask--micro-web-frame-work-1)
   * [Running and testing of flask job](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#running-and-testing-of-flask-job-1)
@@ -339,7 +339,7 @@ Flask is a micro web frame work, which is used as web server listening for web r
  * Go to : "[/home/pi/Documents/MRI]/code/ and run file "flask_listener.py". This micro web server will run on port number : 5000
 If it is run form terminal, then it looks like below
 
-![image](/uploads/dc94c5a1c13f7465450be44c9c0114a8/image.png)
+![image](https://user-images.githubusercontent.com/15073157/193935850-cf92247d-ef2a-4899-8732-2724f8e451dc.png)
 
 * Don't close or kill the process of this. This process need to be running
 
