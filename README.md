@@ -5,7 +5,6 @@
 * [MySql database installation with workbench](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#mysql-database-installation-with-workbench)
   * [Creation of new schema](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#creation-of-new-schema)
   * [Import of table structures and with master data](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#import-of-table-structures-and-with-master-data)
-  * 
 * [Project architecture](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#project-architecture)
 * [Database details](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#database-details)
 * [Python file details](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#python-file-details)
@@ -14,9 +13,9 @@
   * [Creating the folder structure](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#creating-the-folder-structure)
   * [Update the config.cfg file](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#update-the-configcfg-file)
   * [Setting path for sensor data](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#setting-path-for-sensor-data)
-  * [Running of application](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#running-of-application)
+  * [Running the application](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#running-the-application)
   * [Setting up Flask : Micro-web frame work](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#setting-up-flask--micro-web-frame-work)
-  * [Running and testing of flask job](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#running-and-testing-of-flask-job)  
+  * [Running and testing the flask job](https://github.com/Kirity/mri-pump-monitoring/blob/master/README.md#running-and-testing-the-flask-job)  
 
 # Introduction
 
@@ -100,7 +99,6 @@ Here MySql is the database used in this project. Workbench is also installed wit
 * Then the below screen will appear
 
 ![image](https://user-images.githubusercontent.com/15073157/193933340-ba31a0ae-6edf-4bfb-b362-3d8ba9cb6f97.png)
-
 
 
 * To confirm, that all tables are imported successfully, follow the below steps
@@ -204,7 +202,7 @@ Image file extension should be .jpg
 Any sound recording should be placed in below path
 [/home/pi/Documents/MRI]/data/wavefiles
 
-## Running of application
+## Running the application
 
 Go to the location "[/home/pi/Documents/MRI]/code/" and run the file RunningTasks.py
 
@@ -228,7 +226,7 @@ Go to the location "[/home/pi/Documents/MRI]/code/" and run the file RunningTask
 *  Go to : "[/home/pi/Documents/MRI]/code/ and open file "flask_listener.py"
   * In line number : 15, change the path to "RunningTasks.py" to current set up
 
-## Running and testing of flask job
+## Running and testing the flask job
 
 * Go to : "[/home/pi/Documents/MRI]/code/ and run file "flask_listener.py". This micro web server will run on port number : 5000
 
